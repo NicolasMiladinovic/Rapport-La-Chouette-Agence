@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tableau</title>
+</head>
+
+<body>
+    <table>
+        <caption>RECOMMANDATIONS</caption>
+        <thead>
+            <tr>
+                <th scope="col">Catégorie</th>
+                <th scope="col">Problème analysé</th>
+                <th scope="col">Bonne pratique à adopter</th>
+                <th scope="col">Explication du problème</th>
+                <th scope="col">Action recommandée</th>
+                <th scope="col">Référence</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Accessibilité</th>
+                <td>W3C html</td>
+                <td>Vérifier son code sur W3C validator</td>
+                <td>Lang=Default ne dit pas en quelle langue est le site</td>
+                <td>Remplacer Default par fr</td>
+                <td>validator.w3.org</td>
+            </tr>
+            <tr>
+                <th scope="row">Accessibilité</th>
+                <td>W3C css</td>
+                <td>Vérifier son code sur W3C validator</td>
+                <td>Différents pb de propriétés</td>
+                <td>Corriger les erreurs W3C</td>
+                <td>jigsaw.w3.org</td>
+            </tr>
+            <tr>
+                <th scope="row">Accessibilité</th>
+                <td>Contraste de couleur</td>
+                <td>Rendre le site user-friendly</td>
+                <td>Faible contraste entre le texte et son BG</td>
+                <td>Appliquer les standars de contraste</td>
+                <td>app.contrast-finder.org</td>
+            </tr>
+            <tr>
+                <th scope="row">Accessibilité</th>
+                <td>Problème de lien</td>
+                <td>Vérifier son code sur Wave</td>
+                <td>Lien sans texte/Lien avec destination pas coherente...</td>
+                <td>Directement mettre en place le lien de destination</td>
+                <td>wave.webaim.org</td>
+            </tr>
+            <tr>
+                <th scope="row">Accessibilité</th>
+                <td>Visuel</td>
+                <td>Tester son site sur différents appareils</td>
+                <td>Problèmes d'affichage sur différentes tailles d'écrans</td>
+                <td>Bien travailler son responsive</td>
+            </tr>
+            <tr>
+                <th scope="row">SEO & Accessibilité</th>
+                <td>Compression image</td>
+                <td>Vérifier son code sur GTMetrix</td>
+                <td>Résolution d'image trop élevée donc ralentissement du chargement de la page</td>
+                <td>Vérifier que la taille de l'image initial soit adaptée à l'image souhaitée</td>
+                <td>gtmetrix.com</td>
+            </tr>
+
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="2">Total albums</th>
+                <td colspan="2">77</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
