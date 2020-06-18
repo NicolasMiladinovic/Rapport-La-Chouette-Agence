@@ -5,7 +5,7 @@ body {
 .content {
     margin: 3%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.3em;
+    font-size: 120%;
 }
 .sommaire {
     border:1px solid black;
@@ -37,6 +37,7 @@ h1 {
     text-align: center;
     padding: 10px;
     margin-left: 5px;
+    font-family: "Comic Sans MS";
 }
 
 .gras {
@@ -49,9 +50,10 @@ h1 {
 
 .meta_description {
     margin-bottom: 1%;
-    width: 100%;
     max-width: 1133px;
 }
-.sitemap {
+
+
+.image {
     width: 100%;
 }
