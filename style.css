@@ -24,7 +24,7 @@ header {
 }
 section h2 {
     color: black;
-    margin-left: 5%;
+    margin-left: 5%;    
 }
 
 .logo {
@@ -56,4 +56,8 @@ h1 {
 
 .image {
     width: 100%;
+} 
+
+p {
+    margin-bottom: 30%;
 }
