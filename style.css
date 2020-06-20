@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(#cccbcb, white);
+    background: linear-gradient(white, #ffa959);
     background-repeat: no-repeat;
 }
 .content {
@@ -17,6 +17,13 @@ body {
     width: 50%;
     background-color: thistle;
 }
+
+@media screen and (max-width: 434px) {
+    .sommaire {
+        width: 100%;
+    }
+}
+
 header {
    /* background-image: url(img/texture-paper.jpg);
     background-repeat: repeat;
@@ -30,7 +37,10 @@ section h2 {
 
 .logo {
     width: 5em;
-    margin: 10px;
+    margin-top: 15%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10%;
 }
 
 h1 {
@@ -38,7 +48,7 @@ h1 {
     text-align: center;
     padding: 10px;
     margin-left: 5px;
-    font-family: "Comic Sans MS";
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .gras {
@@ -54,6 +64,11 @@ h1 {
     max-width: 1133px;
 }
 
+.titre {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
 .image {
     width: 100%;

@@ -13,11 +13,11 @@
 <body>
     <header>
         <div class="row">
-            <span class="col-1">
+            <span class="col-3">
                 <img class="logo" src="img\logo.png" />
             </span>
-            <span class="col-11">
-                <h1>RAPPORT D'OPTIMISATION DU SITE WEB DE LA CHOUETTE AGENCE</h1>
+            <span class="col-9">
+                <h1 class="titre">RAPPORT DU SITE WEB DE LA CHOUETTE AGENCE</h1>
             </span>
         </div>
     </header>
@@ -33,7 +33,7 @@
             </ol>
         </section>
         <section class="bloc intro">
-            <h2> Introduction </h2>
+            <h2 class="gras"> Introduction </h2>
             <p>
                 La pemière version du site qui nous est envoyé recensait beaucoup de problème de SEO et d'accessibilité.
                 <br>
@@ -128,11 +128,11 @@
                 </div>
                 <span class="gras">Le code JavaScript</span>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-sm-12 col-lg-6">
                         Avant optimisation.
                         <img class="image" src="img\js_init.png">
                     </div>
-                    <div class="col-6">
+                    <div class="col-sm-12 col-lg-6">
                         Après optimisation.
                         <img class="image" src="img\js_final.png">
                     </div>
@@ -177,13 +177,45 @@
             </div>
             <span class="gras">Les contrastes</span>
             <div class="row">
-                <div class="col-6">
-                    img
+                <div class="col-sm-12 col-lg-6">
+                    <img class="image" src="img/contrast-finder.png">
                 </div>
-                <div class="col-6">
-
+                <div class="col-sm-12 col-lg-6">
+                    On remarque qu'il y a à plusieurs endroit un très faible contraste de couleur entre le texte et son
+                    background. Il faut penser à tout type d'utilisateur qui pourrait venir sur notre site, notamment
+                    toute personne mal-voyante par exemple. Dès standars de contraste peuvent être appliqué pour qu'un
+                    plus grand nombre d'utilisateur puissent avoir une expérience agréable sur notre site. Il faut
+                    respecter un ratio minimum de 3:1 (source Wave) entre un texte et son background.
+                    <br>
+                    On utilise contrast-finder pour calculer un contraste suffisant. Si l'on test un contraste et que
+                    celui-ci ne respecte pas le contraste minimum, l'outil suggère plusieurs couleurs alternatives au
+                    contraste correct.
                 </div>
             </div>
+            <span class="gras">Responsive</span>
+            <div class="row">
+                <div class="col-sm-12 col-lg-6">
+                    <img class="image" src="img/desktop.png">
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <img class="image" src="img/mobile.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    Certainement l'aspect le plus important d'un site web : le responsive. <br>
+                    S'assurer que celui-ci est adaptaif peut importe l'environnemet est primordial. <br>
+                    Beaucoup de problème on dûe être modifier afin de le rendre totalement responsive. <br>
+                    Tester directement son site sur beaucoup d'environnements est le meilleur moyen d'assurer un
+                    responsive parfait.
+                </div>
+            </div>
+            <span class="gras">Amélioration</span>
+            <p>
+                Pour finir l'optimisation de l'accessibilité, il y'avait beaucoup d'autre détail à régler qui ne
+                méritent pas un point complet comme des images à la place des textes, une mauvaises utilisation des
+                balises h1, h2 ou h3 ou encore des liens qui ne renvoyait nul part.
+            </p>
         </section>
 
         <section>
